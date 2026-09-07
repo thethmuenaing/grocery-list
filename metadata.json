@@ -1,0 +1,6 @@
+{
+  "name": "Grocery List",
+  "description": "A smart, responsive grocery list manager with local storage persistence, filtering, category tagging, and English/Myanmar support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

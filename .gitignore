@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.cursor/
+.vscode/
+.idea/
+*.swp
+
+# Local Claude overrides
+.claude/settings.local.json
+
+# Stale bun lockfile (npm is the source of truth)
+bun.lock
